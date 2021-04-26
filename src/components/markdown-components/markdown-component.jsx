@@ -2,7 +2,7 @@ import React , {Component} from 'react';
 
 import './markdown.css';
 
-class MarkDown extends Component {
+class MarkDownComponent extends Component {
     
     constructor(){
         super();
@@ -17,13 +17,12 @@ class MarkDown extends Component {
         this.setState({
             markDownText:e.target.value
         });
-    }
+		}
     render(){
     
         return(
             <div className = "markdown-block">
                 <h1 className = "markdown-heading">MarkDown Application</h1>
-                
                     <textarea
                     onChange = {this.handleChange}
                     value = {this.state.markDownText}
@@ -36,4 +35,4 @@ class MarkDown extends Component {
     }
 } 
 
-export default MarkDown;
+export default MarkDownComponent;
