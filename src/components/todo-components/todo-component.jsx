@@ -7,9 +7,7 @@ class ToDo extends Component {
     constructor () {
         super();
         this.state = {
-            todo:[
-                {id:'1',
-                text:'anuj'}],
+            todo:[],
             text:'',
         };
         this.handleChange = this.handleChange.bind(this);
@@ -25,12 +23,15 @@ handleChange(event) {
 
 handleSubmit(event) {
     event.preventDefault();
+    if(this.state.text.length === 0){
+        return;
+    };
+    const item = {text:this.state.text, id:Date.now};
     this.setState ({
-        todo:{text:this.setState.text,id:Date.now},
+        todo:this.state.todo.concat(item),
         text:''
 
     });
-    alert('todays task added'+ this.state.todo);
 
 }
 
@@ -42,9 +43,10 @@ handleSubmit(event) {
                 <hr></hr>
                 {
                     this.state.todo.map((elem) => 
-                        <li key={elem.id}>{elem.text}</li>)
+                        <li className = "todo-list" key={elem.id}>{elem.text}</li>)
                 }
                 <form className="todo-form" onSubmit={this.handleSubmit}>
+                    <label > What is your today task? </label><br/>
                     <input
                         onChange={this.handleChange}
                         value={this.state.text}
