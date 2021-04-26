@@ -1,0 +1,14 @@
+.todo-block {
+
+    text-align: center;
+    margin-top: 50px;
+    
+
+}
+
+.todo-form input {
+    width: 80vw;
+    height: 10vh;
+    font-size: x-large;
+    border-radius: 10px;
+}

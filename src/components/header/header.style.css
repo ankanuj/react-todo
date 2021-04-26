@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.brand-title{
+    margin-left: 100px;
+    cursor: pointer;
+    font-style: none;
+    
+}
+
+.brand-title:hover {
+    color: white;
+}
+
+.header-items {
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+
+    
+}
+
+.header-items li {
+    margin-left: 20px;
+    cursor: pointer;
+}
