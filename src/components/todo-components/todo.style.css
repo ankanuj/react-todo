@@ -1,15 +1,13 @@
 .todo-block {
-
-    text-align: center;
-    margin-top: 50px;
-    
-
+  margin-top: 50px;
 }
 .todo-list {
-    list-style-type: upper-roman;
+  list-style-type: upper-roman;
 }
-
-.todo-form input {
+h1 {
+  text-align: center;
+}
+.form-group input {
     width: 80vw;
     height: 10vh;
     font-size: x-large;

@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import {Button,Container} from 'react-bootstrap';
 
 import './todo.style.css';
 
@@ -38,22 +39,29 @@ handleSubmit(event) {
 
   render () {
     return (
-        <div className="todo-block">
+        <Container className="todo-block">
           <h1 className="heading" > ToDo Application </h1>
             <hr/>
             {
               this.state.todo.map((elem) => 
-              <li className="todo-list" key={elem.id}>{elem.text}</li>)
+              <li
+                className="todo-list" 
+                key={elem.id}>
+                {elem.text}
+                </li>
+              )
             }
-            <form className="todo-form" onSubmit= {this.handleSubmit}>
-              <label>What is your today task?</label><br/>
+            <form className="form-group" onSubmit= {this.handleSubmit}>
+              <label><h3>What is your today task?</h3></label><br/>
               <input
+                className="form-control"
                 onChange= {this.handleChange}
+                placeholder="write here....."
                 value= {this.state.text}
               />
-              <button>Add</button>
+              <Button className="btn btn-danger mt-2 btn-lg">Add</Button>
             </form>
-        </div>
+        </Container>
     );
   }
 }

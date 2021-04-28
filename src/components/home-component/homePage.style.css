@@ -1,0 +1,4 @@
+.app-items li a{ color: black;}
+.app-items li a:hover{
+    color: white;
+}
