@@ -1,6 +1,45 @@
-# Getting Started with Create React App
+# Introduction react-todo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a small project, having two main features:\
+1- Todo\
+2-Markdown
+
+## Todo
+
+what does this feature do?\
+so, this feature will provide you funtionality to add your today task that you wanted to add.
+
+## Markkdown
+
+what does this feature do?\
+so, this feature is all about markdown the specific string which is either enclose btw or start with:\
+1- " ** " for bold string.\
+2- " * " for italic string .\
+3- " # " for hashtag string with blue color.\
+4- " @ ". change backgoud of string with red\
+5- " ~ " enclose string in <strike> </strike> .
+
+### example 
+1. for "**":\
+suppose if user enter text like "**user**":\
+Output shoulbe "user(in bold)".\
+
+2. for "*":\
+If input is "*user*"\
+output "user(in italic)".\
+
+3. for "#":\
+If input is "#user":\
+Output is "user(in blue color)".\
+
+4. for "@":\
+If input is "@user":\
+Output is "@user(with background color red)".\
+
+5. for "~":\
+If input is "~user":\
+Output is "user(enclosed in strike html tag)".\
+
 
 ## Available Scripts
 
