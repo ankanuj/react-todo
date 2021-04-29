@@ -22,23 +22,23 @@ so, this feature is all about markdown the specific string which is either enclo
 ### example 
 1. for "**":\
 suppose if user enter text like "**user**":\
-Output shoulbe "user(in bold)".\
+Output shoulbe "user(in bold)".
 
 2. for "*":\
 If input is "*user*"\
-output "user(in italic)".\
+output "user(in italic)".
 
 3. for "#":\
 If input is "#user":\
-Output is "user(in blue color)".\
+Output is "user(in blue color)".
 
 4. for "@":\
 If input is "@user":\
-Output is "@user(with background color red)".\
+Output is "@user(with background color red)".
 
 5. for "~":\
 If input is "~user":\
-Output is "user(enclosed in strike html tag)".\
+Output is "user(enclosed in strike html tag)".
 
 
 ## Available Scripts
