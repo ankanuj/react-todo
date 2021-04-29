@@ -100,7 +100,7 @@ class MarkDownComponent extends Component {
           value={inputText}
           rows="5" />
         <h1 className="output-header">Output Area</h1><hr/>
-        <p className="output-text" dangerouslySetInnerHTML={{ __html: markDownText }}></p>
+        <div className="output-text" dangerouslySetInnerHTML={{ __html: markDownText }}></div>
       </Container>
     );
   }
