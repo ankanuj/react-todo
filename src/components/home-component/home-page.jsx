@@ -1,24 +1,22 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {Jumbotron,Container} from 'react-bootstrap';
+
 
 import './homePage.style.css';
-const HomePage = () => {
+
+const HomePage = () =>{
   return (
-    <Container>
-      <Jumbotron className="mt-5 pt-2">
-        <h1>A Simple Application </h1>
-        <hr />
-        <Container>
+    <div className="container">
+      <div className="container bg-light mt-5 pt-2 pb-5">
+        <h1>A Simple Application</h1>
+        <hr/>
+        <div className="container">
           <ul className="app-items">
             <li><h3 className="text-dark"><Link to="/todo">Todo</Link></h3></li>
             <li><h3><Link to="/markdown">Markdown</Link></h3></li>
           </ul>
-        </Container>
-      </Jumbotron>
-    </Container>
-    
-  );
-}
-
+        </div>
+      </div>
+    </div>   
+)};
 export default HomePage;

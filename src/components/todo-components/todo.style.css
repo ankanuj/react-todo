@@ -1,20 +1,17 @@
-.todo-block {
+.todo-block{
   margin-top: 50px;
 }
-.todo-list {
-  list-style-type: upper-roman;
-}
-h1 {
+h1{
   text-align: center;
 }
-.form-group input {
-    width: 80vw;
-    height: 10vh;
-    font-size: x-large;
-    border-radius: 10px;
+.form-group input{
+  width: 80vw;
+  height: 10vh;
+  font-size: x-large;
+  border-radius: 10px;
 }
-button {
-    width: 10vw;
-    height: 10vh;
-    border-radius: 10px;
+button{
+  width: 10vw;
+  height: 10vh;
+  border-radius: 10px;
 }

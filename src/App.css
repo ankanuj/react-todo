@@ -1,18 +1,16 @@
-a {
-  
+a{ 
   text-decoration: none;
 }
-
-a:hover {
+a:hover{
   color: white;
   text-decoration: none;
   background-color:coral;
   transition: ease-in 0.5s;
 }
-.app-component {
+.app-component{
   align-items: center;
 }
-.app-heading {
+.app-heading{
   font-size: 100px;
 }
 
