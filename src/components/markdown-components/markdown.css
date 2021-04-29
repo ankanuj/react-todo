@@ -1,13 +1,13 @@
-.markdown-block {
+.markdown-block{
     text-align: center;
 }
-textarea {
+textarea{
     font-size: 30px;
 }
-.output-block {
+.output-block{
     font-size: 30px;
 }
-
-.output-text {
+.output-text{
     font-size: 30px;
+    text-align: left;
 }
