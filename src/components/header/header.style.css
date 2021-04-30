@@ -1,31 +1,15 @@
-.header {
-    display: flex;
-    height: 80px;
-    background-color: black;
-    color: white;
-    font-size: 30px;
-}
-
 .brand-title{
-    margin-left: 100px;
-    cursor: pointer;
-    font-style: none;
-    
+  margin-left: 100px;
+  font-size: 30px;    
 }
-
-.brand-title:hover {
-    color: white;
+.brand-title{
+  color: white;
 }
-
-.header-items {
-    list-style: none;
-    display: flex;
-    margin-left: 100px;
-
-    
+.header-items{
+  margin-right: auto;
+  margin-left: 200px;
 }
-
-.header-items li {
-    margin-left: 20px;
-    cursor: pointer;
+.header-items a{
+  color: white;
+  font-size: 25px;
 }
